@@ -16,7 +16,7 @@ By the way here is PCBs appearance:
 
 ![keeb](./photo/pcb.JPG)
 
- WPM and remix of [bongo cat animation](https://www.reddit.com/r/olkb/comments/h00a8b/i_made_an_oled_animation_of_bongo_cat_that/) is showing on my OLED (of course with picture of my cat instead of original one!). With encoders i can scroll my feed, and also fast forward/backward the video by 5 seconds. Encoders is very interesting feature in keyboards and detailed explanation of this you can check in [QMK Docs](https://docs.qmk.fm/features/encoders).
+ WPM and remix of [bongo cat animation](https://www.reddit.com/r/olkb/comments/h00a8b/i_made_an_oled_animation_of_bongo_cat_that/) is showing on my OLED (of course with picture of my cat instead of original one!). With encoders i can scroll my feed, and also fast forward/backward the YouTube videos by 5 seconds. Encoders is very interesting feature in keyboards and detailed explanation of this you can check in [QMK Docs](https://docs.qmk.fm/features/encoders).
 
 ## Keymap
 
