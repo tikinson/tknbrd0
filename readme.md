@@ -45,12 +45,13 @@ So you can compile firmware from fork or you can find binaries in 'FW' directory
 
 | Designator       | Footprint                                                        | Quantity | Value                 | LCSC Part #      |
 |------------------|------------------------------------------------------------------|----------|-----------------------|------------------|
-| D1 - D42         | Diode_SOD-123                                                   | 42       | Diode                 |                  |
-| EXSW1, EXSW2     | RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles | 2        | RotaryEncoder_Switch   |                  |
-| J1               | OLED_128x64                                                      | 1        | Conn_01x04            |                  |
+| D1 - D42         | Diode_SOD-123                                                   | 42       | Diode                 |C83528              |
+| EXSW1, EXSW2     | RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles | 2        | RotaryEncoder_Switch   |C1322543         |
+| J1               | OLED_128x64 (I2C version)                                       | 1        | Conn_01x04            |                  |
 | S1 - S42         | MX_PCB_1.00u                                                    | 42       | Keyswitch             |                  |
 | U1               | Raspberry_Pi_Pico                                               | 1        | Raspberry_Pi_Pico     |                  |
 | rD1              | D_SOD-523                                                       | 1        | 1N4148WT              | C232841          |
-| rLED1 - rLED42    | YS-SK6812MINI-E-withCUTOUT                                      | 42       | YS-SK6812MINI-E       |                  |
+| rLED1 - rLED42    | YS-SK6812MINI-E-withCUTOUT                                     | 42       | YS-SK6812MINI-E       |C5149201          |
+| aluminum spacer M2(standoff)    |MountingHole_4.3mm_M4_ISO14580                    | 8        | standoff              |                  |
 
 Lasercutting, Knob, Switches all this is you can easily find on market on your personal preferences. All that included in BOM is recommended, only LED is optional.
