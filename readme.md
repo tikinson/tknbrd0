@@ -54,4 +54,4 @@ So you can compile firmware from fork or you can find binaries in 'FW' directory
 | rLED1 - rLED42    | YS-SK6812MINI-E-withCUTOUT                                     | 42       | YS-SK6812MINI-E       |C5149201          |
 | aluminum spacer M2(standoff)    |MountingHole_4.3mm_M4_ISO14580                    | 8        | standoff              |                  |
 
-Lasercutting, Knob, Switches all this is you can easily find on market on your personal preferences. All that included in BOM is recommended, only LED is optional.
+Lasercutting, Knob, Switches all this you can easily find on market on your personal preferences. All that included in BOM is recommended, only LED is optional.
