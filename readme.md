@@ -3,8 +3,6 @@
 ## Intro
 ### ( !ACHTUNG! work in progress, use by your own risk! )
 
-_I'm Roma and I'm maker, don't wait - just make it! =)_
-
 After a couple of sleepless nights, I decided to get my hands dirty with this sweet and diverse world of mechanical keyboards. As i understood on my way to my current daily driver it's quite interesting challenge. My main idea was to make a cheap keyboard, that can guide me forward in this hobby. 
 
 ![keeb](./photo/silent.JPG)
@@ -17,6 +15,8 @@ By the way here is PCBs appearance:
 ![keeb](./photo/pcb.JPG)
 
  WPM and remix of [bongo cat animation](https://www.reddit.com/r/olkb/comments/h00a8b/i_made_an_oled_animation_of_bongo_cat_that/) is showing on my OLED (of course with picture of my cat instead of original one!). With encoders i can scroll my feed, and also fast forward/backward the YouTube videos by 5 seconds. Encoders is very interesting feature in keyboards and detailed explanation of this you can check in [QMK Docs](https://docs.qmk.fm/features/encoders).
+
+ #### important note: in first version of my schematics, unfortunately, encoders works not so stable as expected... sometimes for correct working keyboard must be rebooted.
 
 ## Keymap
 
@@ -41,7 +41,10 @@ So you can compile firmware from fork or you can find binaries in 'FW' directory
 2. Case: it's very important to solder RPI Pico a bit higher that it could be to prevent collision with acrylic case!!!
 3. Encoders may have strange behaviour because they are connected to one pin. it was a bad decision and when reset keyboard isn't working i just rotate them together for first and then separately, so after this magical manipulation they works as usual.
 
-## BOM
+## BOM (Bill of materials)
+
+Interactive BOM could be handy in assembling process and you can find it [here](/bom/ibom.html)
+
 
 | Designator       | Footprint                                                        | Quantity | Value                 | LCSC Part #      |
 |------------------|------------------------------------------------------------------|----------|-----------------------|------------------|
